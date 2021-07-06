@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-05T22:10:42 WIB" name="Master Suite" finished-at="2021-07-05T22:15:24 WIB" duration-ms="282230">
+    <groups>
+    </groups>
+    <test started-at="2021-07-05T22:10:42 WIB" name="All Test" finished-at="2021-07-05T22:15:24 WIB" duration-ms="282230">
+      <class name="menuUsers.AddUserBulk">
+        <test-method is-config="true" signature="setupstart()[pri:0, instance:menuUsers.AddUserBulk@48974e45]" started-at="2021-07-05T22:10:49 WIB" name="setupstart" finished-at="2021-07-05T22:10:56 WIB" duration-ms="6777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupstart -->
+        <test-method signature="loginAdmin()[pri:3, instance:menuUsers.AddUserBulk@48974e45]" started-at="2021-07-05T22:10:56 WIB" name="loginAdmin" finished-at="2021-07-05T22:11:15 WIB" duration-ms="19238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAdmin -->
+        <test-method signature="createUser()[pri:4, instance:menuUsers.AddUserBulk@48974e45]" started-at="2021-07-05T22:11:15 WIB" name="createUser" finished-at="2021-07-05T22:12:38 WIB" duration-ms="82778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method is-config="true" signature="finishing()[pri:0, instance:menuUsers.AddUserBulk@48974e45]" started-at="2021-07-05T22:15:24 WIB" name="finishing" finished-at="2021-07-05T22:15:24 WIB" duration-ms="659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishing -->
+      </class> <!-- menuUsers.AddUserBulk -->
+      <class name="menuKategoriAndProduct.AddKategoriAndProductBulk">
+        <test-method is-config="true" signature="setupstart()[pri:0, instance:menuKategoriAndProduct.AddKategoriAndProductBulk@6bedbc4d]" started-at="2021-07-05T22:10:42 WIB" name="setupstart" finished-at="2021-07-05T22:10:49 WIB" duration-ms="6678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupstart -->
+        <test-method signature="loginAdmin()[pri:3, instance:menuKategoriAndProduct.AddKategoriAndProductBulk@6bedbc4d]" started-at="2021-07-05T22:12:38 WIB" name="loginAdmin" finished-at="2021-07-05T22:12:40 WIB" duration-ms="2651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAdmin -->
+        <test-method signature="addKategoriproduct()[pri:4, instance:menuKategoriAndProduct.AddKategoriAndProductBulk@6bedbc4d]" started-at="2021-07-05T22:12:40 WIB" name="addKategoriproduct" finished-at="2021-07-05T22:15:24 WIB" duration-ms="163310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addKategoriproduct -->
+        <test-method is-config="true" signature="finishing()[pri:0, instance:menuKategoriAndProduct.AddKategoriAndProductBulk@6bedbc4d]" started-at="2021-07-05T22:15:24 WIB" name="finishing" finished-at="2021-07-05T22:15:24 WIB" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishing -->
+      </class> <!-- menuKategoriAndProduct.AddKategoriAndProductBulk -->
+    </test> <!-- All Test -->
+  </suite> <!-- Master Suite -->
+</testng-results>

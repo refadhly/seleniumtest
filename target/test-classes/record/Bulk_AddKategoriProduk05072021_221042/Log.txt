@@ -1,0 +1,219 @@
+Setup aplikasi dimulai
+Buka browser
+Deleting Cookies and Cache
+Delete Cookies and Cache DONE
+Setup aplikasi berhasil
+Setup aplikasi dimulai
+Buka browser
+Deleting Cookies and Cache
+Delete Cookies and Cache DONE
+Setup aplikasi berhasil
+===============START STEP LOGIN===============
+nama method : loginAdmin()
+
+Apakah title sama ? [Login | Klorofil - Free Bootstrap Dashboard Template] == [Login | Klorofil - Free Bootstrap Dashboard Template]
+Title Passed >>>>> OK 
+
+Apakah user login sama ? [fadli] == [fadli]
+User Passed >>>>> OK 
+
+nama method : loginAdmin()
+===============FINISH STEP LOGIN===============
+
+===============START STEP CREATE USER===============
+nama method : createUser()
+
+Apakah url sama ? [http://127.0.0.1:8000/user] == [http://127.0.0.1:8000/user]
+URL Passed >>>>> OK 
+
+add user dimulai
+Ini skenario = Normal Add User
+add user selesai
+nama method : createUser()
+===============FINISH STEP CREATE USER===============
+
+===============START STEP CREATE USER===============
+nama method : createUser()
+
+Apakah url sama ? [http://127.0.0.1:8000/user] == [http://127.0.0.1:8000/user]
+URL Passed >>>>> OK 
+
+add user dimulai
+Ini skenario = Normal Add User
+add user selesai
+nama method : createUser()
+===============FINISH STEP CREATE USER===============
+
+===============START STEP CREATE USER===============
+nama method : createUser()
+
+Apakah url sama ? [http://127.0.0.1:8000/user] == [http://127.0.0.1:8000/user]
+URL Passed >>>>> OK 
+
+add user dimulai
+Ini skenario = Normal Add User
+add user selesai
+nama method : createUser()
+===============FINISH STEP CREATE USER===============
+
+===============START STEP CREATE USER===============
+nama method : createUser()
+
+Apakah url sama ? [http://127.0.0.1:8000/user] == [http://127.0.0.1:8000/user]
+URL Passed >>>>> OK 
+
+add user dimulai
+Ini skenario = Normal Add User
+add user selesai
+nama method : createUser()
+===============FINISH STEP CREATE USER===============
+
+===============START STEP CREATE USER===============
+nama method : createUser()
+
+Apakah url sama ? [http://127.0.0.1:8000/user] == [http://127.0.0.1:8000/user]
+URL Passed >>>>> OK 
+
+add user dimulai
+Ini skenario = Normal Add User
+add user selesai
+nama method : createUser()
+===============FINISH STEP CREATE USER===============
+
+===============START STEP CREATE USER===============
+nama method : createUser()
+
+Apakah url sama ? [http://127.0.0.1:8000/user] == [http://127.0.0.1:8000/user]
+URL Passed >>>>> OK 
+
+add user dimulai
+Ini skenario = Normal Add User
+add user selesai
+nama method : createUser()
+===============FINISH STEP CREATE USER===============
+
+===============START STEP CREATE USER===============
+nama method : createUser()
+
+Apakah url sama ? [http://127.0.0.1:8000/user] == [http://127.0.0.1:8000/user]
+URL Passed >>>>> OK 
+
+add user dimulai
+Ini skenario = Abnormal Add User dgn Field Nama Kosong
+Register gagal karena skenario Abnormal
+nama method : createUser()
+===============FINISH STEP CREATE USER===============
+
+===============START STEP CREATE USER===============
+nama method : createUser()
+
+Apakah url sama ? [http://127.0.0.1:8000/user] == [http://127.0.0.1:8000/user]
+URL Passed >>>>> OK 
+
+add user dimulai
+Ini skenario = Abnormal Add User dgn Field Email Kosong
+Register gagal karena skenario Abnormal
+nama method : createUser()
+===============FINISH STEP CREATE USER===============
+
+===============START STEP CREATE USER===============
+nama method : createUser()
+
+Apakah url sama ? [http://127.0.0.1:8000/user] == [http://127.0.0.1:8000/user]
+URL Passed >>>>> OK 
+
+add user dimulai
+Ini skenario = Abnormal Add User dgn Field Password Kosong
+Register gagal karena skenario Abnormal
+nama method : createUser()
+===============FINISH STEP CREATE USER===============
+
+===============START STEP CREATE USER===============
+nama method : createUser()
+
+Apakah url sama ? [http://127.0.0.1:8000/user] == [http://127.0.0.1:8000/user]
+URL Passed >>>>> OK 
+
+add user dimulai
+Ini skenario = Abnormal Add User dgn Field Repassword Kosong
+Register gagal karena skenario Abnormal
+nama method : createUser()
+===============FINISH STEP CREATE USER===============
+
+===============START STEP LOGIN===============
+nama method : loginAdmin()
+
+Apakah title sama ? [Login | Klorofil - Free Bootstrap Dashboard Template] == [Login | Klorofil - Free Bootstrap Dashboard Template]
+Title Passed >>>>> OK 
+
+Apakah user login sama ? [admin] == [admin]
+User Passed >>>>> OK 
+
+nama method : loginAdmin()
+===============FINISH STEP LOGIN===============
+
+No matching records found
+data belum ada. membuat kategori dimulai
+add kategori berhasil
+add produk dimulai
+No matching records found
+data belum ada. membuat produk dimulai
+add produk berhasil
+test per row
+data sudah ada, langsung create produk saja
+add produk dimulai
+No matching records found
+data belum ada. membuat produk dimulai
+add produk berhasil
+test per row
+data sudah ada, langsung create produk saja
+add produk dimulai
+No matching records found
+data belum ada. membuat produk dimulai
+add produk berhasil
+test per row
+data sudah ada, langsung create produk saja
+add produk dimulai
+No matching records found
+data belum ada. membuat produk dimulai
+add produk berhasil
+test per row
+No matching records found
+data belum ada. membuat kategori dimulai
+add kategori berhasil
+add produk dimulai
+No matching records found
+data belum ada. membuat produk dimulai
+add produk berhasil
+test per row
+No matching records found
+data belum ada. membuat kategori dimulai
+add kategori berhasil
+add produk dimulai
+No matching records found
+data belum ada. membuat produk dimulai
+add produk berhasil
+test per row
+data sudah ada, langsung create produk saja
+add produk dimulai
+No matching records found
+data belum ada. membuat produk dimulai
+add produk berhasil
+test per row
+data sudah ada, langsung create produk saja
+add produk dimulai
+No matching records found
+data belum ada. membuat produk dimulai
+add produk berhasil
+test per row
+No matching records found
+data belum ada. membuat kategori dimulai
+add kategori berhasil
+add produk dimulai
+No matching records found
+data belum ada. membuat produk dimulai
+add produk berhasil
+test per row
+Create/update kategori produk telah berhasil
+Testing aplikasi telah selesai. Terima Kasih
+Testing aplikasi telah selesai. Terima Kasih

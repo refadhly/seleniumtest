@@ -1,0 +1,10 @@
+udin1,udin1@gmail.com,654321,654321,TRUE,Normal Add User
+udin2,udin2@gmail.com,654321,654321,TRUE,Normal Add User
+udin3,udin3@gmail.com,654321,654321,TRUE,Normal Add User
+udin4,udin4@gmail.com,654321,654321,TRUE,Normal Add User
+udin5,udin5@gmail.com,654321,654321,TRUE,Normal Add User
+udin6,udin6@gmail.com,654321,654321,TRUE,Normal Add User
+*,udin7@gmail.com,654321,654321,FALSE,Abnormal Add User dgn Field Nama Kosong
+udin8,*,654321,654321,FALSE,Abnormal Add User dgn Field Email Kosong
+udin9,udin9@gmail.com,*,654321,FALSE,Abnormal Add User dgn Field Password Kosong
+udin10,udin10@gmail.com,654321,*,FALSE,Abnormal Add User dgn Field Repassword Kosong

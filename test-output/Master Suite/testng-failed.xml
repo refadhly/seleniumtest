@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Master Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="All Test(failed)">
+    <classes>
+      <class name="menuKategoriAndProduct.AddKategoriAndProductSingle">
+        <methods>
+          <include name="setupstart"/>
+          <include name="addKategoriproduct"/>
+          <include name="finishing"/>
+        </methods>
+      </class> <!-- menuKategoriAndProduct.AddKategoriAndProductSingle -->
+      <class name="menuUsers.AddUserBulk">
+        <methods>
+          <include name="setupstart"/>
+          <include name="createUser"/>
+          <include name="finishing"/>
+        </methods>
+      </class> <!-- menuUsers.AddUserBulk -->
+    </classes>
+  </test> <!-- All Test(failed) -->
+</suite> <!-- Failed suite [Master Suite] -->
