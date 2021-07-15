@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="10" ignored="0" total="10" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="User Suite" duration-ms="51195" started-at="2021-07-15T19:46:22 ICT" finished-at="2021-07-15T19:47:14 ICT">
+  <suite name="User Suite" duration-ms="24176" started-at="2021-07-15T23:14:17 ICT" finished-at="2021-07-15T23:14:41 ICT">
     <groups>
     </groups>
-    <test name="test menu user" duration-ms="51195" started-at="2021-07-15T19:46:22 ICT" finished-at="2021-07-15T19:47:14 ICT">
+    <test name="test menu user" duration-ms="24176" started-at="2021-07-15T23:14:17 ICT" finished-at="2021-07-15T23:14:41 ICT">
       <class name="menuUsers.AddUserBulk">
-        <test-method status="PASS" signature="setupstart()[pri:0, instance:menuUsers.AddUserBulk@4623bf06]" name="setupstart" is-config="true" duration-ms="16604" started-at="2021-07-15T19:46:22 ICT" finished-at="2021-07-15T19:46:39 ICT">
+        <test-method status="PASS" signature="setupstart()[pri:0, instance:menuUsers.AddUserBulk@4623bf06]" name="setupstart" is-config="true" duration-ms="7924" started-at="2021-07-15T23:14:17 ICT" finished-at="2021-07-15T23:14:25 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupstart -->
-        <test-method status="FAIL" signature="loginAdmin()[pri:3, instance:menuUsers.AddUserBulk@4623bf06]" name="loginAdmin" duration-ms="4699" started-at="2021-07-15T19:47:09 ICT" finished-at="2021-07-15T19:47:13 ICT">
+        <test-method status="FAIL" signature="loginAdmin()[pri:3, instance:menuUsers.AddUserBulk@4623bf06]" name="loginAdmin" duration-ms="4702" started-at="2021-07-15T23:14:36 ICT" finished-at="2021-07-15T23:14:41 ICT">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[unknown error: net::ERR_CONNECTION_REFUSED
   (Session info: chrome=91.0.4472.124)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4741PMD', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'DESKTOP-4741PMD', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Windows\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:56637}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d22498ff2f7497fdf3f93cb28b418791]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\refad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60381}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bbc4d1b03cd9dde214a19a0d73d899b6]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_REFUSED
   (Session info: chrome=91.0.4472.124)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4741PMD', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'DESKTOP-4741PMD', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Windows\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:56637}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d22498ff2f7497fdf3f93cb28b418791
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\refad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60381}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bbc4d1b03cd9dde214a19a0d73d899b6
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -81,17 +81,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAdmin -->
-        <test-method status="FAIL" signature="createUser()[pri:4, instance:menuUsers.AddUserBulk@4623bf06]" name="createUser" duration-ms="115" started-at="2021-07-15T19:47:13 ICT" finished-at="2021-07-15T19:47:13 ICT">
+        <test-method status="FAIL" signature="createUser()[pri:4, instance:menuUsers.AddUserBulk@4623bf06]" name="createUser" duration-ms="97" started-at="2021-07-15T23:14:41 ICT" finished-at="2021-07-15T23:14:41 ICT">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(.,'Users')]"}
   (Session info: chrome=91.0.4472.124)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4741PMD', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'DESKTOP-4741PMD', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Windows\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:56637}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d22498ff2f7497fdf3f93cb28b418791
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\refad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60381}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bbc4d1b03cd9dde214a19a0d73d899b6
 *** Element info: {Using=xpath, value=//a[contains(.,'Users')]}]]>
             </message>
             <full-stacktrace>
@@ -99,10 +99,10 @@ Session ID: d22498ff2f7497fdf3f93cb28b418791
   (Session info: chrome=91.0.4472.124)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4741PMD', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'DESKTOP-4741PMD', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Windows\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:56637}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d22498ff2f7497fdf3f93cb28b418791
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\refad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60381}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bbc4d1b03cd9dde214a19a0d73d899b6
 *** Element info: {Using=xpath, value=//a[contains(.,'Users')]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -158,35 +158,35 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method status="PASS" signature="finishing()[pri:0, instance:menuUsers.AddUserBulk@4623bf06]" name="finishing" is-config="true" duration-ms="163" started-at="2021-07-15T19:47:13 ICT" finished-at="2021-07-15T19:47:14 ICT">
+        <test-method status="PASS" signature="finishing()[pri:0, instance:menuUsers.AddUserBulk@4623bf06]" name="finishing" is-config="true" duration-ms="92" started-at="2021-07-15T23:14:41 ICT" finished-at="2021-07-15T23:14:41 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishing -->
       </class> <!-- menuUsers.AddUserBulk -->
       <class name="menuUsers.AddUsers">
-        <test-method status="PASS" signature="setupstart()[pri:0, instance:menuUsers.AddUsers@1085fad8]" name="setupstart" is-config="true" duration-ms="8236" started-at="2021-07-15T19:46:39 ICT" finished-at="2021-07-15T19:46:47 ICT">
+        <test-method status="PASS" signature="setupstart()[pri:0, instance:menuUsers.AddUsers@1085fad8]" name="setupstart" is-config="true" duration-ms="6411" started-at="2021-07-15T23:14:25 ICT" finished-at="2021-07-15T23:14:31 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupstart -->
-        <test-method status="FAIL" signature="loginAdmin()[pri:1, instance:menuUsers.AddUsers@1085fad8]" name="loginAdmin" duration-ms="21202" started-at="2021-07-15T19:46:47 ICT" finished-at="2021-07-15T19:47:09 ICT">
+        <test-method status="FAIL" signature="loginAdmin()[pri:1, instance:menuUsers.AddUsers@1085fad8]" name="loginAdmin" duration-ms="4852" started-at="2021-07-15T23:14:31 ICT" finished-at="2021-07-15T23:14:36 ICT">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[unknown error: net::ERR_CONNECTION_REFUSED
   (Session info: chrome=91.0.4472.124)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4741PMD', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'DESKTOP-4741PMD', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Windows\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:50574}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b16f5235f69e907fcc6f529c2b9706d2]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\refad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64335}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 110a9465f466cb88ff8ead1c25494413]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_REFUSED
   (Session info: chrome=91.0.4472.124)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4741PMD', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'DESKTOP-4741PMD', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Windows\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:50574}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b16f5235f69e907fcc6f529c2b9706d2
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\refad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64335}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 110a9465f466cb88ff8ead1c25494413
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -238,17 +238,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAdmin -->
-        <test-method status="FAIL" signature="createUser()[pri:2, instance:menuUsers.AddUsers@1085fad8]" name="createUser" duration-ms="88" started-at="2021-07-15T19:47:09 ICT" finished-at="2021-07-15T19:47:09 ICT">
+        <test-method status="FAIL" signature="createUser()[pri:2, instance:menuUsers.AddUsers@1085fad8]" name="createUser" duration-ms="27" started-at="2021-07-15T23:14:36 ICT" finished-at="2021-07-15T23:14:36 ICT">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(.,'Users')]"}
   (Session info: chrome=91.0.4472.124)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4741PMD', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'DESKTOP-4741PMD', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Windows\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:50574}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b16f5235f69e907fcc6f529c2b9706d2
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\refad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64335}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 110a9465f466cb88ff8ead1c25494413
 *** Element info: {Using=xpath, value=//a[contains(.,'Users')]}]]>
             </message>
             <full-stacktrace>
@@ -256,10 +256,10 @@ Session ID: b16f5235f69e907fcc6f529c2b9706d2
   (Session info: chrome=91.0.4472.124)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4741PMD', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'DESKTOP-4741PMD', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Windows\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:50574}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b16f5235f69e907fcc6f529c2b9706d2
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\refad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64335}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 110a9465f466cb88ff8ead1c25494413
 *** Element info: {Using=xpath, value=//a[contains(.,'Users')]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -315,41 +315,41 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method status="PASS" signature="finishing()[pri:0, instance:menuUsers.AddUsers@1085fad8]" name="finishing" is-config="true" duration-ms="41" started-at="2021-07-15T19:47:14 ICT" finished-at="2021-07-15T19:47:14 ICT">
+        <test-method status="PASS" signature="finishing()[pri:0, instance:menuUsers.AddUsers@1085fad8]" name="finishing" is-config="true" duration-ms="43" started-at="2021-07-15T23:14:41 ICT" finished-at="2021-07-15T23:14:41 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishing -->
       </class> <!-- menuUsers.AddUsers -->
     </test> <!-- test menu user -->
   </suite> <!-- User Suite -->
-  <suite name="catprod Suite" duration-ms="35743" started-at="2021-07-15T19:47:14 ICT" finished-at="2021-07-15T19:47:49 ICT">
+  <suite name="catprod Suite" duration-ms="46754" started-at="2021-07-15T23:14:41 ICT" finished-at="2021-07-15T23:15:28 ICT">
     <groups>
     </groups>
-    <test name="test menu category produk" duration-ms="35743" started-at="2021-07-15T19:47:14 ICT" finished-at="2021-07-15T19:47:49 ICT">
+    <test name="test menu category produk" duration-ms="46754" started-at="2021-07-15T23:14:41 ICT" finished-at="2021-07-15T23:15:28 ICT">
       <class name="menuKategoriAndProduct.AddKategoriAndProductBulk">
-        <test-method status="PASS" signature="setupstart()[pri:0, instance:menuKategoriAndProduct.AddKategoriAndProductBulk@1c027129]" name="setupstart" is-config="true" duration-ms="4522" started-at="2021-07-15T19:47:14 ICT" finished-at="2021-07-15T19:47:18 ICT">
+        <test-method status="PASS" signature="setupstart()[pri:0, instance:menuKategoriAndProduct.AddKategoriAndProductBulk@1c027129]" name="setupstart" is-config="true" duration-ms="5085" started-at="2021-07-15T23:14:41 ICT" finished-at="2021-07-15T23:14:46 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupstart -->
-        <test-method status="FAIL" signature="loginAdmin()[pri:3, instance:menuKategoriAndProduct.AddKategoriAndProductBulk@1c027129]" name="loginAdmin" duration-ms="18383" started-at="2021-07-15T19:47:31 ICT" finished-at="2021-07-15T19:47:49 ICT">
+        <test-method status="FAIL" signature="loginAdmin()[pri:3, instance:menuKategoriAndProduct.AddKategoriAndProductBulk@1c027129]" name="loginAdmin" duration-ms="12096" started-at="2021-07-15T23:15:03 ICT" finished-at="2021-07-15T23:15:15 ICT">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[unknown error: net::ERR_CONNECTION_REFUSED
+              <![CDATA[chrome not reachable
   (Session info: chrome=91.0.4472.124)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4741PMD', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'DESKTOP-4741PMD', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:54217}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c0c7384a0bf972a5cbc3bb4ec30a7fac]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\refad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49350}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e558756bbbec748835153a818206ac1]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_REFUSED
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
   (Session info: chrome=91.0.4472.124)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4741PMD', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'DESKTOP-4741PMD', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:54217}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c0c7384a0bf972a5cbc3bb4ec30a7fac
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\refad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49350}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e558756bbbec748835153a818206ac1
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -401,28 +401,26 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAdmin -->
-        <test-method status="FAIL" signature="addKategoriproduct()[pri:4, instance:menuKategoriAndProduct.AddKategoriAndProductBulk@1c027129]" name="addKategoriproduct" duration-ms="40" started-at="2021-07-15T19:47:49 ICT" finished-at="2021-07-15T19:47:49 ICT">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="addKategoriproduct()[pri:4, instance:menuKategoriAndProduct.AddKategoriAndProductBulk@1c027129]" name="addKategoriproduct" duration-ms="12086" started-at="2021-07-15T23:15:15 ICT" finished-at="2021-07-15T23:15:27 ICT">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(.,'Kategori')]"}
+              <![CDATA[chrome not reachable
   (Session info: chrome=91.0.4472.124)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4741PMD', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'DESKTOP-4741PMD', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:54217}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c0c7384a0bf972a5cbc3bb4ec30a7fac
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\refad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49350}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e558756bbbec748835153a818206ac1
 *** Element info: {Using=xpath, value=//a[contains(.,'Kategori')]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(.,'Kategori')]"}
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
   (Session info: chrome=91.0.4472.124)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4741PMD', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'DESKTOP-4741PMD', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:54217}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c0c7384a0bf972a5cbc3bb4ec30a7fac
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\refad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49350}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e558756bbbec748835153a818206ac1
 *** Element info: {Using=xpath, value=//a[contains(.,'Kategori')]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -474,39 +472,104 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addKategoriproduct -->
-        <test-method status="PASS" signature="finishing()[pri:0, instance:menuKategoriAndProduct.AddKategoriAndProductBulk@1c027129]" name="finishing" is-config="true" duration-ms="35" started-at="2021-07-15T19:47:49 ICT" finished-at="2021-07-15T19:47:49 ICT">
+        <test-method status="FAIL" signature="finishing()[pri:0, instance:menuKategoriAndProduct.AddKategoriAndProductBulk@1c027129]" name="finishing" is-config="true" duration-ms="261" started-at="2021-07-15T23:15:27 ICT" finished-at="2021-07-15T23:15:28 ICT">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-4741PMD', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\refad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49350}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e558756bbbec748835153a818206ac1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-4741PMD', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\refad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49350}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e558756bbbec748835153a818206ac1
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at menuKategoriAndProduct.AddKategoriAndProductBulk.finishing(AddKategoriAndProductBulk.java:84)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.afterRun(TestRunner.java:877)
+at org.testng.TestRunner.run(TestRunner.java:599)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishing -->
       </class> <!-- menuKategoriAndProduct.AddKategoriAndProductBulk -->
       <class name="menuKategoriAndProduct.AddKategoriAndProductSingle">
-        <test-method status="PASS" signature="setupstart()[pri:0, instance:menuKategoriAndProduct.AddKategoriAndProductSingle@30af930b]" name="setupstart" is-config="true" duration-ms="4715" started-at="2021-07-15T19:47:18 ICT" finished-at="2021-07-15T19:47:23 ICT">
+        <test-method status="PASS" signature="setupstart()[pri:0, instance:menuKategoriAndProduct.AddKategoriAndProductSingle@30af930b]" name="setupstart" is-config="true" duration-ms="4204" started-at="2021-07-15T23:14:46 ICT" finished-at="2021-07-15T23:14:50 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupstart -->
-        <test-method status="FAIL" signature="loginAdmin()[pri:1, instance:menuKategoriAndProduct.AddKategoriAndProductSingle@30af930b]" name="loginAdmin" duration-ms="7954" started-at="2021-07-15T19:47:23 ICT" finished-at="2021-07-15T19:47:31 ICT">
+        <test-method status="FAIL" signature="loginAdmin()[pri:1, instance:menuKategoriAndProduct.AddKategoriAndProductSingle@30af930b]" name="loginAdmin" duration-ms="715" started-at="2021-07-15T23:14:50 ICT" finished-at="2021-07-15T23:14:51 ICT">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[unknown error: net::ERR_CONNECTION_REFUSED
+              <![CDATA[unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
   (Session info: chrome=91.0.4472.124)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4741PMD', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'DESKTOP-4741PMD', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Windows\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:60890}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6f6074956cec16a80eddbde205e0a378]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\refad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57635}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f255cdbd88677927fb40ac49f3387c13]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_REFUSED
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
   (Session info: chrome=91.0.4472.124)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4741PMD', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'DESKTOP-4741PMD', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Windows\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:60890}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6f6074956cec16a80eddbde205e0a378
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\refad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57635}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f255cdbd88677927fb40ac49f3387c13
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -558,28 +621,26 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAdmin -->
-        <test-method status="FAIL" signature="addKategoriproduct()[pri:2, instance:menuKategoriAndProduct.AddKategoriAndProductSingle@30af930b]" name="addKategoriproduct" duration-ms="38" started-at="2021-07-15T19:47:31 ICT" finished-at="2021-07-15T19:47:31 ICT">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="addKategoriproduct()[pri:2, instance:menuKategoriAndProduct.AddKategoriAndProductSingle@30af930b]" name="addKategoriproduct" duration-ms="12298" started-at="2021-07-15T23:14:51 ICT" finished-at="2021-07-15T23:15:03 ICT">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(.,'Kategori')]"}
+              <![CDATA[chrome not reachable
   (Session info: chrome=91.0.4472.124)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4741PMD', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'DESKTOP-4741PMD', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Windows\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:60890}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6f6074956cec16a80eddbde205e0a378
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\refad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57635}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f255cdbd88677927fb40ac49f3387c13
 *** Element info: {Using=xpath, value=//a[contains(.,'Kategori')]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(.,'Kategori')]"}
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
   (Session info: chrome=91.0.4472.124)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4741PMD', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'DESKTOP-4741PMD', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Windows\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:60890}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6f6074956cec16a80eddbde205e0a378
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\refad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57635}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f255cdbd88677927fb40ac49f3387c13
 *** Element info: {Using=xpath, value=//a[contains(.,'Kategori')]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -631,31 +692,31 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addKategoriproduct -->
-        <test-method status="PASS" signature="finishing()[pri:0, instance:menuKategoriAndProduct.AddKategoriAndProductSingle@30af930b]" name="finishing" is-config="true" duration-ms="51" started-at="2021-07-15T19:47:49 ICT" finished-at="2021-07-15T19:47:49 ICT">
+        <test-method status="SKIP" signature="finishing()[pri:0, instance:menuKategoriAndProduct.AddKategoriAndProductSingle@30af930b]" name="finishing" is-config="true" duration-ms="-1626365728066" started-at="2021-07-15T23:15:28 ICT" finished-at="1970-01-01T07:00:00 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishing -->
       </class> <!-- menuKategoriAndProduct.AddKategoriAndProductSingle -->
     </test> <!-- test menu category produk -->
   </suite> <!-- catprod Suite -->
-  <suite name="Master Suite" duration-ms="0" started-at="2021-07-15T19:47:54 ICT" finished-at="2021-07-15T19:47:54 ICT">
+  <suite name="Master Suite" duration-ms="0" started-at="2021-07-15T23:15:32 ICT" finished-at="2021-07-15T23:15:32 ICT">
     <groups>
     </groups>
   </suite> <!-- Master Suite -->
-  <suite name="product out Suite" duration-ms="4161" started-at="2021-07-15T19:47:50 ICT" finished-at="2021-07-15T19:47:54 ICT">
+  <suite name="product out Suite" duration-ms="4097" started-at="2021-07-15T23:15:28 ICT" finished-at="2021-07-15T23:15:32 ICT">
     <groups>
     </groups>
-    <test name="test menu produk keluar" duration-ms="4161" started-at="2021-07-15T19:47:50 ICT" finished-at="2021-07-15T19:47:54 ICT">
+    <test name="test menu produk keluar" duration-ms="4097" started-at="2021-07-15T23:15:28 ICT" finished-at="2021-07-15T23:15:32 ICT">
       <class name="androidEmulator.ProductOutgoing">
-        <test-method status="PASS" signature="setup()[pri:0, instance:androidEmulator.ProductOutgoing@50919900]" name="setup" is-config="true" duration-ms="2155" started-at="2021-07-15T19:47:50 ICT" finished-at="2021-07-15T19:47:52 ICT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:androidEmulator.ProductOutgoing@50919900]" name="setup" is-config="true" duration-ms="2088" started-at="2021-07-15T23:15:28 ICT" finished-at="2021-07-15T23:15:30 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="login()[pri:1, instance:androidEmulator.ProductOutgoing@50919900]" name="login" duration-ms="0" started-at="2021-07-15T19:47:52 ICT" finished-at="2021-07-15T19:47:52 ICT">
+        <test-method status="FAIL" signature="login()[pri:1, instance:androidEmulator.ProductOutgoing@50919900]" name="login" duration-ms="1" started-at="2021-07-15T23:15:30 ICT" finished-at="2021-07-15T23:15:30 ICT">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -699,7 +760,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="FAIL" signature="outgoing()[pri:2, instance:androidEmulator.ProductOutgoing@50919900]" name="outgoing" duration-ms="2004" started-at="2021-07-15T19:47:52 ICT" finished-at="2021-07-15T19:47:54 ICT">
+        <test-method status="FAIL" signature="outgoing()[pri:2, instance:androidEmulator.ProductOutgoing@50919900]" name="outgoing" duration-ms="2001" started-at="2021-07-15T23:15:30 ICT" finished-at="2021-07-15T23:15:32 ICT">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -743,7 +804,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- outgoing -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:androidEmulator.ProductOutgoing@50919900]" name="teardown" is-config="true" duration-ms="0" started-at="2021-07-15T19:47:54 ICT" finished-at="2021-07-15T19:47:54 ICT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:androidEmulator.ProductOutgoing@50919900]" name="teardown" is-config="true" duration-ms="2" started-at="2021-07-15T23:15:32 ICT" finished-at="2021-07-15T23:15:32 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
