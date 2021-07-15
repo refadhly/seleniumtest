@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="menuKategoriAndProduct.AddKategoriAndProductSingle">
+      <class name="menuUsers.AddUserBulk">
         <methods>
           <include name="setupstart"/>
-          <include name="addKategoriproduct"/>
+          <include name="createUser"/>
           <include name="finishing"/>
+          <include name="loginAdmin"/>
         </methods>
-      </class> <!-- menuKategoriAndProduct.AddKategoriAndProductSingle -->
+      </class> <!-- menuUsers.AddUserBulk -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

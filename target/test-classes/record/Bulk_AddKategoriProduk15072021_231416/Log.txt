@@ -1,0 +1,6 @@
+Setup aplikasi dimulai
+Buka browser
+Deleting Cookies and Cache
+Delete Cookies and Cache DONE
+Setup aplikasi berhasil
+Testing aplikasi telah selesai. Terima Kasih

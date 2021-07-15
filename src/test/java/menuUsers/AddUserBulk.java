@@ -95,11 +95,11 @@ public class AddUserBulk {
 		//=======> isi form login
 		WebElement inputLogin = webDriver.findElement(By.xpath("//input[contains(@id,'signin-email')]"));
 		inputLogin.clear();
-		inputLogin.sendKeys("fadli@gmail.com");
+		inputLogin.sendKeys("admin@gmail.com");
 
 		WebElement inputPassword = webDriver.findElement(By.xpath("//input[contains(@id,'signin-password')]"));
 		inputPassword.clear();
-		inputPassword.sendKeys("fadli123");
+		inputPassword.sendKeys("secret");
 
 		//=======> proses login
 		WebElement buttonLogin = webDriver.findElement(By.xpath("//button[@type='submit'][contains(.,'LOGIN')]"));
@@ -109,7 +109,7 @@ public class AddUserBulk {
 		WebElement namaLogin = webDriver.findElement(By.xpath("//span[@class='hidden-xs']"));
 		String LoginAs = namaLogin.getText();
 		//System.out.println("Siapa yang login ? " + LoginAs);
-		String ExpNamaLogin = "fadli";
+		String ExpNamaLogin = "admin";
 		System.out.println("Apakah user login sama ? " + "[" + LoginAs + "] == " + "[" + ExpNamaLogin + "]" );
 
 		try {
@@ -150,6 +150,7 @@ public class AddUserBulk {
 
 			System.out.println("===============START STEP CREATE USER===============");
 			System.out.println("nama method : createUser()\n");
+//			new WebDriverWait(webDriver, 20).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[contains(.,'Users')]")));
 			WebElement buttonMenuUser = webDriver.findElement(By.xpath("//a[contains(.,'Users')]"));
 			buttonMenuUser.click();
 
