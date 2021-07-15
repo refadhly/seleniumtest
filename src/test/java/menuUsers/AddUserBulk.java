@@ -17,6 +17,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.io.FileHandler;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -212,9 +214,14 @@ public class AddUserBulk {
 				System.out.println("Ini skenario = " + CellSkenario);
 
 				//=======> search untuk bukti data sudah bertambah
+				new WebDriverWait(webDriver, 20).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[contains(@type,'search')]")));
 				WebElement inputSearchDataNew = webDriver.findElement(By.xpath("//input[contains(@type,'search')]"));
 				inputSearchDataNew.clear();
 				inputSearchDataNew.sendKeys(NamaUserNew);
+				
+				Thread.sleep(2*1000);
+				WebElement sortbyid = webDriver.findElement(By.xpath("//th[contains(.,'ID')]"));
+				sortbyid.click();
 				
 				//cara screenshot
 				Thread.sleep(2*1000);

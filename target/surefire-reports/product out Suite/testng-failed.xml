@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [product out Suite]">
+  <test thread-count="5" verbose="0" name="test menu produk keluar(failed)">
+    <classes>
+      <class name="androidEmulator.ProductOutgoing">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="outgoing"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- androidEmulator.ProductOutgoing -->
+    </classes>
+  </test> <!-- test menu produk keluar(failed) -->
+</suite> <!-- Failed suite [product out Suite] -->

@@ -1,6 +1,9 @@
 package androidEmulator;
 
 import org.testng.annotations.Test;
+
+import com.github.javafaker.Faker;
+
 import org.testng.AssertJUnit;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -10,6 +13,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -34,7 +38,8 @@ import io.appium.java_client.remote.MobileCapabilityType;
 
 public class ProductOutgoing {
 	
-	private static final String SERVER_URL = "http://d2397b712107.ngrok.io/";
+	private static final String SERVER_URL = "http://f2dd48d01907.ngrok.io/";
+	private Faker faker = new Faker(new Locale("id_ID"));
 	
 	//=======> untuk kebutuhan screenshot
 		private String pathOutput = "C:\\Users\\refad\\eclipse-workspace\\SeleniumJavaFramework\\src\\test\\resources\\record\\";
@@ -142,6 +147,8 @@ private AndroidDriver<MobileElement> androDriver;
 		System.out.println("nama method : loginAdmin()");
 		System.out.println("===============FINISH STEP LOGIN===============\n");
 		
+	
+		new WebDriverWait(androDriver, 20).until(ExpectedConditions.textToBePresentInElementLocated(By.xpath("//span[contains(.,'QAS Auto Klak Klik')]"), "QAS Auto Klak Klik"));
 	}
 	
 	@Test(priority=2)
@@ -154,10 +161,15 @@ private AndroidDriver<MobileElement> androDriver;
 		//screenshot param
 		TakesScreenshot ts=(TakesScreenshot)androDriver;
 				
-		String produk 	= "Jeans";
-		String customer = "PT. Maju";
-		String quantity = "2";
-		String dateout		= "2021-06-18";
+		String produk 	= "test";
+		Integer customerfaker = faker.number().numberBetween(1, 5);
+		String cust = customerfaker.toString();
+		Integer qtyfaker = faker.number().numberBetween(1, 10);
+		String quantity = qtyfaker.toString();
+		Date datenow = new Date();
+		SimpleDateFormat formatnow = new SimpleDateFormat("yyyy-MM-dd"); 
+		String dateout = formatnow.format(datenow);
+//		String dateout		= "2021-06-18";
 		
 		System.out.println("mulai menambahkan produk yang keluar");
 		
@@ -172,8 +184,11 @@ private AndroidDriver<MobileElement> androDriver;
 		Select popupProductOut = new Select(androDriver.findElement(By.xpath("//select[@name='product_id']")));
 		popupProductOut.selectByVisibleText(produk);
 		
+//		Select popupCustomerOut = new Select(androDriver.findElement(By.xpath("//select[@name='customer_id']")));
+//		popupCustomerOut.selectByVisibleText(customer);
+		
 		Select popupCustomerOut = new Select(androDriver.findElement(By.xpath("//select[@name='customer_id']")));
-		popupCustomerOut.selectByVisibleText(customer);
+		popupCustomerOut.selectByValue(cust);
 		
 		WebElement popupQuantityOut = androDriver.findElement(By.xpath("//input[@name='qty']"));
 		popupQuantityOut.clear();
@@ -195,13 +210,17 @@ private AndroidDriver<MobileElement> androDriver;
 		
 		
 		//untuk memastikan
-		Thread.sleep(4*1000);
-//		new WebDriverWait(androDriver, 20).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[contains(@type,'search')]"))).sendKeys(produk);
+		Thread.sleep(3*1000);
+		new WebDriverWait(androDriver, 20).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[contains(@type,'search')]"))).sendKeys(produk);
 		WebElement inputsearchProductOut = androDriver.findElement(By.xpath("//input[contains(@type,'search')]"));
 		inputsearchProductOut.sendKeys(produk);
 		
 		Thread.sleep(2*1000);
 		if(androDriver.isKeyboardShown()) {   androDriver.hideKeyboard(); }
+		
+		WebElement sortbyid = androDriver.findElement(By.xpath("//th[@class='sorting_desc'][contains(.,'ID')]"));
+		sortbyid.click();
+		
 		
 		//cara screenshot
 		Thread.sleep(2*1000);
@@ -211,6 +230,9 @@ private AndroidDriver<MobileElement> androDriver;
 		System.out.println("selesai menambahkan produk yang keluar");
 		
 		Thread.sleep(5*1000);
+		
+		
+		
 	}
 		
 }

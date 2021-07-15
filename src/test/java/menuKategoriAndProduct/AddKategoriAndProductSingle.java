@@ -1,13 +1,19 @@
 package menuKategoriAndProduct;
 
 import org.testng.annotations.Test;
+
+import com.github.javafaker.Faker;
+
 import org.testng.AssertJUnit;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 //import java.util.Locale;
+import java.util.Locale;
+import java.util.Random;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
@@ -17,7 +23,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.io.FileHandler;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -30,7 +38,7 @@ public class AddKategoriAndProductSingle {
 	//=======> parameter bersama
 		private static WebDriver webDriver;
 		private static final String SERVER_URL = "http://127.0.0.1:8000/";
-//		private Faker faker = new Faker(new Locale("id_ID"));
+		private Faker faker = new Faker(new Locale("id_ID"));
 
 		//=======> untuk kebutuhan screenshot
 		private String pathOutput = "C:\\Users\\refad\\eclipse-workspace\\SeleniumJavaFramework\\src\\test\\resources\\record\\";
@@ -152,12 +160,14 @@ public class AddKategoriAndProductSingle {
 		    TakesScreenshot ts=(TakesScreenshot)webDriver;
 			
 			//variable nama kategori yang akan di input
-			String categ = "sepokat";
+//			String categ = "sepokat";
+			String categfaker = faker.commerce().material();
 			//variable nama produk yang akan di input
-			String produk = "kets2";
+//			String produk = "kets2";
+			String produkfaker = faker.commerce().productName();
 			String hargaproduk = "190000";
-			String qtyproduk = "29";
-			String imageproduk = "C:\\Users\\refad\\Downloads\\download2.jpg";
+			String qtyproduk = "100";
+			String imageproduk = "C:\\Users\\refad\\Downloads\\download.jpg";
 
 				
 			WebElement menuKategori = webDriver.findElement(By.xpath("//a[contains(.,'Kategori')]"));
@@ -165,7 +175,7 @@ public class AddKategoriAndProductSingle {
 			
 			// cek apakah kategori tersebut tampil di row data ?
 			WebElement searchKategori = webDriver.findElement(By.xpath("//input[contains(@type,'search')]"));
-			searchKategori.sendKeys(categ);
+			searchKategori.sendKeys(categfaker);
 			Thread.sleep(1*1000);
 			
 			
@@ -181,27 +191,27 @@ public class AddKategoriAndProductSingle {
 					Thread.sleep(1*1000);
 					WebElement popupInputNameNewKategori = webDriver.findElement(By.xpath("//input[contains(@id,'name')]"));
 					popupInputNameNewKategori.clear();
-					popupInputNameNewKategori.sendKeys(categ);
+					popupInputNameNewKategori.sendKeys(categfaker);
 //					WebElement buttonCancel = webDriver.findElement(By.xpath("//button[@type='button'][contains(.,'Cancel')]"));
 //					buttonCancel.click();
 					
 					//cara screenshot
 					Thread.sleep(2*1000);
 					FileHandler.copy(ts.getScreenshotAs(OutputType.FILE), 
-							new File(pathResult+"\\"+"Kategori_"+categ+"_SubmitNew.png"));
+							new File(pathResult+"\\"+"Kategori_"+categfaker+"_SubmitNew.png"));
 					
 					WebElement popupSubmitNewKategori = webDriver.findElement(By.xpath("//button[@type='submit'][contains(.,'Submit')]"));
 					popupSubmitNewKategori.click();
 					Thread.sleep(1*1000);
 					WebElement inputsearchKategori = webDriver.findElement(By.xpath("//input[contains(@type,'search')]"));
 					inputsearchKategori.clear();
-					inputsearchKategori.sendKeys(categ);
+					inputsearchKategori.sendKeys(categfaker);
 					System.out.println("add kategori berhasil");
 					
 					//cara screenshot
 					Thread.sleep(2*1000);
 					FileHandler.copy(ts.getScreenshotAs(OutputType.FILE), 
-							new File(pathResult+"\\"+"Kategori_"+categ+"_ResultNew.png"));
+							new File(pathResult+"\\"+"Kategori_"+categfaker+"_ResultNew.png"));
 					
 				}
 			}
@@ -211,7 +221,7 @@ public class AddKategoriAndProductSingle {
 				//cara screenshot
 				Thread.sleep(2*1000);
 				FileHandler.copy(ts.getScreenshotAs(OutputType.FILE), 
-						new File(pathResult+"\\"+"Kategori_"+categ+"_Result.png"));
+						new File(pathResult+"\\"+"Kategori_"+categfaker+"_Result.png"));
 			}
 			
 			
@@ -224,7 +234,7 @@ public class AddKategoriAndProductSingle {
 			
 			// cek apakah kategori tersebut tampil di row data ?
 			WebElement searchProduct = webDriver.findElement(By.xpath("//input[contains(@type,'search')]"));
-			searchProduct.sendKeys(produk);
+			searchProduct.sendKeys(produkfaker);
 			Thread.sleep(2*1000);
 		
 			
@@ -242,7 +252,7 @@ public class AddKategoriAndProductSingle {
 					//pengisian produk
 					WebElement popupInputNamaNewProduct = webDriver.findElement(By.xpath("//input[@name='nama']"));
 					popupInputNamaNewProduct.clear();
-					popupInputNamaNewProduct.sendKeys(produk);
+					popupInputNamaNewProduct.sendKeys(produkfaker);
 
 					WebElement popupInputPriceNewProduct = webDriver.findElement(By.xpath("//input[@name='harga']"));
 					popupInputPriceNewProduct.clear();
@@ -257,27 +267,27 @@ public class AddKategoriAndProductSingle {
 					popupInputImageProduct.sendKeys(imageproduk);
 
 					Select popupSelectCategoryProduct = new Select(webDriver.findElement(By.xpath("//select[@name='category_id']")));
-					popupSelectCategoryProduct.selectByVisibleText(categ);
+					popupSelectCategoryProduct.selectByVisibleText(categfaker);
 					
 					//cara screenshot
 					Thread.sleep(2*1000);
 					FileHandler.copy(ts.getScreenshotAs(OutputType.FILE), 
-							new File(pathResult+"\\"+"Kategori_"+categ+"Produk_"+produk+"_SubmitNew.png"));
+							new File(pathResult+"\\"+"Kategori_"+categfaker+"Produk_"+produkfaker+"_SubmitNew.png"));
 
 					WebElement popupSubmitNewProduct = webDriver.findElement(By.xpath("//button[@type='submit'][contains(.,'Submit')]"));
 					popupSubmitNewProduct.click();
 
-					Thread.sleep(1*1000);
+					Thread.sleep(2*1000);
 					WebElement inputsearchProductNew = webDriver.findElement(By.xpath("//input[contains(@type,'search')]"));
 					inputsearchProductNew.clear();
-					inputsearchProductNew.sendKeys(produk);
+					inputsearchProductNew.sendKeys(produkfaker);
 
 					System.out.println("add produk berhasil");
 					
 					//cara screenshot
 					Thread.sleep(2*1000);
 					FileHandler.copy(ts.getScreenshotAs(OutputType.FILE), 
-							new File(pathResult+"\\"+"Kategori_"+categ+"Produk_"+produk+"_ResultNew.png"));
+							new File(pathResult+"\\"+"Kategori_"+categfaker+"Produk_"+produkfaker+"_ResultNew.png"));
 				}
 			}
 			catch(NoSuchElementException exp) {
@@ -289,7 +299,7 @@ public class AddKategoriAndProductSingle {
 
 				WebElement popupEditNamaNewProduct = webDriver.findElement(By.xpath("//input[@name='nama']"));
 				popupEditNamaNewProduct.clear();
-				popupEditNamaNewProduct.sendKeys(produk);
+				popupEditNamaNewProduct.sendKeys(produkfaker);
 
 				WebElement popupInputPriceNewProduct = webDriver.findElement(By.xpath("//input[@name='harga']"));
 				popupInputPriceNewProduct.clear();
@@ -304,25 +314,35 @@ public class AddKategoriAndProductSingle {
 				popupInputImageProduct.sendKeys(imageproduk);
 
 				Select popupSelectCategoryProduct = new Select(webDriver.findElement(By.xpath("//select[@name='category_id']")));
-				popupSelectCategoryProduct.selectByVisibleText(categ);
+				popupSelectCategoryProduct.selectByVisibleText(categfaker);			
 				
 				//cara screenshot
 				Thread.sleep(2*1000);
 				FileHandler.copy(ts.getScreenshotAs(OutputType.FILE), 
-						new File(pathResult+"\\"+"Kategori_"+categ+"Produk_"+produk+"_SubmitUpdate.png"));
+						new File(pathResult+"\\"+"Kategori_"+categfaker+"Produk_"+produkfaker+"_SubmitUpdate.png"));
 
 				WebElement popupSubmitNewProduct = webDriver.findElement(By.xpath("//button[@type='submit'][contains(.,'Submit')]"));
 				popupSubmitNewProduct.click();
-
-				Thread.sleep(1*1000);
-				WebElement inputsearchProductNew = webDriver.findElement(By.xpath("//input[contains(@type,'search')]"));
-				inputsearchProductNew.clear();
-				inputsearchProductNew.sendKeys(produk);
+				
+				//=======> search untuk bukti data sudah bertambah
+				new WebDriverWait(webDriver, 20).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[contains(@type,'search')]")));
+//				Thread.sleep(3*1000);
+				WebElement inputSearchDataNew = webDriver.findElement(By.xpath("//input[contains(@type,'search')]"));
+				inputSearchDataNew.clear();
+				inputSearchDataNew.sendKeys(produkfaker);
+//				new WebDriverWait(webDriver, 20).until(ExpectedConditions.elementToBeClickable(By.xpath("//th[contains(.,'ID')]"))).click();
+				Thread.sleep(2*1000);
+				WebElement sortbyid = webDriver.findElement(By.xpath("//th[contains(.,'ID')]"));
+				sortbyid.click();
+				
+				
+				
+				
 				
 				//cara screenshot
 				Thread.sleep(2*1000);
 				FileHandler.copy(ts.getScreenshotAs(OutputType.FILE), 
-						new File(pathResult+"\\"+"Kategori_"+categ+"Produk_"+produk+"_ResultUpdate.png"));
+						new File(pathResult+"\\"+"Kategori_"+categfaker+"Produk_"+produkfaker+"_ResultUpdate.png"));
 
 				System.out.println("update produk berhasil");
 			}
