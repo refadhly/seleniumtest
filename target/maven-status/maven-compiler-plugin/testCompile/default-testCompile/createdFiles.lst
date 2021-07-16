@@ -1,5 +1,5 @@
 menuUsers\AddUserBulk.class
 menuUsers\AddUsers.class
 androidEmulator\ProductOutgoing.class
-menuKategoriAndProduct\AddKategoriAndProductBulk.class
 menuKategoriAndProduct\AddKategoriAndProductSingle.class
+menuKategoriAndProduct\AddKategoriAndProductBulk.class

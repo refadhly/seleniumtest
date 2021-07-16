@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Master Suite">
-  <suite-files>
-    <suite-file path="suiteuser.xml" />
-    <suite-file path="suitecatprod.xml" />
-    <suite-file path="suiteandroidproductout.xml" />
-  </suite-files>
+<suite name="my Suite" thread-count="1" verbose="10" preserve-order="true" parallel="false">
+	<test name="Test1">
+        <classes>
+            <class name="menuUsers.AddUsers" />
+        </classes>
+    </test>
+    <test name="Test2">
+        <classes>
+            <class name="menuUsers.AddUserBulk" />
+        </classes>
+    </test>
+    <test name="Test3">
+        <classes>
+            <class name="menuKategoriAndProduct.AddKategoriAndProductSingle" />
+        </classes>
+    </test>
+    <test name="Test4">
+        <classes>
+            <class name="menuKategoriAndProduct.AddKategoriAndProductBulk" />
+        </classes>
+    </test>
+    
+    <test name="Test5">
+        <classes>
+            <class name="androidEmulator.ProductOutgoing" />
+        </classes>
+    </test>
+    
 </suite> <!-- Suite -->
