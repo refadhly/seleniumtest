@@ -2,31 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="User Suite" duration-ms="39865" started-at="2021-07-16T15:00:22 ICT" finished-at="2021-07-16T15:01:02 ICT">
+  <suite name="User Suite" duration-ms="45184" started-at="2021-07-16T17:15:50 ICT" finished-at="2021-07-16T17:16:36 ICT">
     <groups>
     </groups>
-    <test name="test menu user" duration-ms="39865" started-at="2021-07-16T15:00:22 ICT" finished-at="2021-07-16T15:01:02 ICT">
+    <test name="test menu user" duration-ms="45184" started-at="2021-07-16T17:15:50 ICT" finished-at="2021-07-16T17:16:36 ICT">
       <class name="menuUsers.AddUsers">
-        <test-method status="PASS" signature="setupstart()[pri:0, instance:menuUsers.AddUsers@5437039a]" name="setupstart" is-config="true" duration-ms="9552" started-at="2021-07-16T15:00:22 ICT" finished-at="2021-07-16T15:00:32 ICT">
+        <test-method status="PASS" signature="setupstart()[pri:0, instance:menuUsers.AddUsers@5437039a]" name="setupstart" is-config="true" duration-ms="11800" started-at="2021-07-16T17:15:50 ICT" finished-at="2021-07-16T17:16:02 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupstart -->
-        <test-method status="PASS" signature="loginAdmin()[pri:1, instance:menuUsers.AddUsers@5437039a]" name="loginAdmin" duration-ms="17229" started-at="2021-07-16T15:00:32 ICT" finished-at="2021-07-16T15:00:49 ICT">
+        <test-method status="PASS" signature="loginAdmin()[pri:1, instance:menuUsers.AddUsers@5437039a]" name="loginAdmin" duration-ms="20022" started-at="2021-07-16T17:16:02 ICT" finished-at="2021-07-16T17:16:22 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAdmin -->
-        <test-method status="PASS" signature="createUser()[pri:2, instance:menuUsers.AddUsers@5437039a]" name="createUser" duration-ms="12875" started-at="2021-07-16T15:00:49 ICT" finished-at="2021-07-16T15:01:02 ICT">
+        <test-method status="PASS" signature="createUser()[pri:2, instance:menuUsers.AddUsers@5437039a]" name="createUser" duration-ms="13110" started-at="2021-07-16T17:16:22 ICT" finished-at="2021-07-16T17:16:35 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method status="PASS" signature="finishing()[pri:0, instance:menuUsers.AddUsers@5437039a]" name="finishing" is-config="true" duration-ms="134" started-at="2021-07-16T15:01:02 ICT" finished-at="2021-07-16T15:01:02 ICT">
+        <test-method status="PASS" signature="finishing()[pri:0, instance:menuUsers.AddUsers@5437039a]" name="finishing" is-config="true" duration-ms="149" started-at="2021-07-16T17:16:35 ICT" finished-at="2021-07-16T17:16:36 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishing -->
       </class> <!-- menuUsers.AddUsers -->
     </test> <!-- test menu user -->
   </suite> <!-- User Suite -->
-  <suite name="Master Suite" duration-ms="0" started-at="2021-07-16T15:01:02 ICT" finished-at="2021-07-16T15:01:02 ICT">
+  <suite name="Master Suite" duration-ms="0" started-at="2021-07-16T17:16:36 ICT" finished-at="2021-07-16T17:16:36 ICT">
     <groups>
     </groups>
   </suite> <!-- Master Suite -->
