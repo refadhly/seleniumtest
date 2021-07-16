@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="menuUsers.AddUserBulk">
+      <class name="androidEmulator.ProductOutgoing">
         <methods>
-          <include name="setupstart"/>
-          <include name="createUser"/>
-          <include name="finishing"/>
-          <include name="loginAdmin"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="outgoing"/>
         </methods>
-      </class> <!-- menuUsers.AddUserBulk -->
+      </class> <!-- androidEmulator.ProductOutgoing -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

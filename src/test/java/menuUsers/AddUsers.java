@@ -207,18 +207,18 @@ public class AddUsers {
 		buttonSubmitUserNew.click();
 
 		//=======> search untuk bukti data sudah bertambah
-		new WebDriverWait(webDriver, 20).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[contains(@type,'search')]")));
-//		Thread.sleep(3*1000);
-		WebElement inputSearchDataNew = webDriver.findElement(By.xpath("//input[contains(@type,'search')]"));
-		inputSearchDataNew.clear();
-		inputSearchDataNew.sendKeys(NamaUserNew);
+//		new WebDriverWait(webDriver, 20).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[contains(@type,'search')]")));
+////		Thread.sleep(3*1000);
+//		WebElement inputSearchDataNew = webDriver.findElement(By.xpath("//input[contains(@type,'search')]"));
+//		inputSearchDataNew.clear();
+//		inputSearchDataNew.sendKeys(NamaUserNew);
 //		new WebDriverWait(webDriver, 20).until(ExpectedConditions.elementToBeClickable(By.xpath("//th[contains(.,'ID')]"))).click();
-		Thread.sleep(2*1000);
-		WebElement sortbyid = webDriver.findElement(By.xpath("//th[contains(.,'ID')]"));
-		sortbyid.click();
+//		Thread.sleep(1*1000);
+//		WebElement sortbyid = webDriver.findElement(By.xpath("//th[contains(.,'ID')]"));
+//		sortbyid.click();
 		
 		//cara screenshot
-		Thread.sleep(2*1000);
+		Thread.sleep(1*1000);
 		FileHandler.copy(ts.getScreenshotAs(OutputType.FILE), 
 				new File(pathResult+"\\"+NamaUserNew+"_Result.png"));
 		

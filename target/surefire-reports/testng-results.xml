@@ -1,33 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="User Suite" duration-ms="45184" started-at="2021-07-16T17:15:50 ICT" finished-at="2021-07-16T17:16:36 ICT">
+  <suite name="User Suite" duration-ms="136064" started-at="2021-07-16T22:07:29 ICT" finished-at="2021-07-16T22:09:45 ICT">
     <groups>
     </groups>
-    <test name="test menu user" duration-ms="45184" started-at="2021-07-16T17:15:50 ICT" finished-at="2021-07-16T17:16:36 ICT">
-      <class name="menuUsers.AddUsers">
-        <test-method status="PASS" signature="setupstart()[pri:0, instance:menuUsers.AddUsers@5437039a]" name="setupstart" is-config="true" duration-ms="11800" started-at="2021-07-16T17:15:50 ICT" finished-at="2021-07-16T17:16:02 ICT">
+    <test name="test menu user" duration-ms="136064" started-at="2021-07-16T22:07:29 ICT" finished-at="2021-07-16T22:09:45 ICT">
+      <class name="menuUsers.AddUserBulk">
+        <test-method status="PASS" signature="setupstart()[pri:0, instance:menuUsers.AddUserBulk@4623bf06]" name="setupstart" is-config="true" duration-ms="8491" started-at="2021-07-16T22:07:29 ICT" finished-at="2021-07-16T22:07:37 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupstart -->
-        <test-method status="PASS" signature="loginAdmin()[pri:1, instance:menuUsers.AddUsers@5437039a]" name="loginAdmin" duration-ms="20022" started-at="2021-07-16T17:16:02 ICT" finished-at="2021-07-16T17:16:22 ICT">
+        <test-method status="PASS" signature="loginAdmin()[pri:3, instance:menuUsers.AddUserBulk@4623bf06]" name="loginAdmin" duration-ms="6181" started-at="2021-07-16T22:08:17 ICT" finished-at="2021-07-16T22:08:24 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAdmin -->
-        <test-method status="PASS" signature="createUser()[pri:2, instance:menuUsers.AddUsers@5437039a]" name="createUser" duration-ms="13110" started-at="2021-07-16T17:16:22 ICT" finished-at="2021-07-16T17:16:35 ICT">
+        <test-method status="PASS" signature="createUser()[pri:4, instance:menuUsers.AddUserBulk@4623bf06]" name="createUser" duration-ms="80790" started-at="2021-07-16T22:08:24 ICT" finished-at="2021-07-16T22:09:44 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method status="PASS" signature="finishing()[pri:0, instance:menuUsers.AddUsers@5437039a]" name="finishing" is-config="true" duration-ms="149" started-at="2021-07-16T17:16:35 ICT" finished-at="2021-07-16T17:16:36 ICT">
+        <test-method status="PASS" signature="finishing()[pri:0, instance:menuUsers.AddUserBulk@4623bf06]" name="finishing" is-config="true" duration-ms="213" started-at="2021-07-16T22:09:44 ICT" finished-at="2021-07-16T22:09:45 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishing -->
+      </class> <!-- menuUsers.AddUserBulk -->
+      <class name="menuUsers.AddUsers">
+        <test-method status="PASS" signature="setupstart()[pri:0, instance:menuUsers.AddUsers@1085fad8]" name="setupstart" is-config="true" duration-ms="8293" started-at="2021-07-16T22:07:37 ICT" finished-at="2021-07-16T22:07:45 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupstart -->
+        <test-method status="PASS" signature="loginAdmin()[pri:1, instance:menuUsers.AddUsers@1085fad8]" name="loginAdmin" duration-ms="21564" started-at="2021-07-16T22:07:46 ICT" finished-at="2021-07-16T22:08:08 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAdmin -->
+        <test-method status="PASS" signature="createUser()[pri:2, instance:menuUsers.AddUsers@1085fad8]" name="createUser" duration-ms="9807" started-at="2021-07-16T22:08:08 ICT" finished-at="2021-07-16T22:08:17 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="finishing()[pri:0, instance:menuUsers.AddUsers@1085fad8]" name="finishing" is-config="true" duration-ms="55" started-at="2021-07-16T22:09:45 ICT" finished-at="2021-07-16T22:09:45 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishing -->
       </class> <!-- menuUsers.AddUsers -->
     </test> <!-- test menu user -->
   </suite> <!-- User Suite -->
-  <suite name="Master Suite" duration-ms="0" started-at="2021-07-16T17:16:36 ICT" finished-at="2021-07-16T17:16:36 ICT">
+  <suite name="catprod Suite" duration-ms="232765" started-at="2021-07-16T22:09:45 ICT" finished-at="2021-07-16T22:13:38 ICT">
+    <groups>
+    </groups>
+    <test name="test menu category produk" duration-ms="232765" started-at="2021-07-16T22:09:45 ICT" finished-at="2021-07-16T22:13:38 ICT">
+      <class name="menuKategoriAndProduct.AddKategoriAndProductBulk">
+        <test-method status="PASS" signature="setupstart()[pri:0, instance:menuKategoriAndProduct.AddKategoriAndProductBulk@1c027129]" name="setupstart" is-config="true" duration-ms="5448" started-at="2021-07-16T22:09:45 ICT" finished-at="2021-07-16T22:09:50 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupstart -->
+        <test-method status="PASS" signature="loginAdmin()[pri:3, instance:menuKategoriAndProduct.AddKategoriAndProductBulk@1c027129]" name="loginAdmin" duration-ms="3172" started-at="2021-07-16T22:10:18 ICT" finished-at="2021-07-16T22:10:21 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAdmin -->
+        <test-method status="PASS" signature="addKategoriproduct()[pri:4, instance:menuKategoriAndProduct.AddKategoriAndProductBulk@1c027129]" name="addKategoriproduct" duration-ms="196166" started-at="2021-07-16T22:10:21 ICT" finished-at="2021-07-16T22:13:37 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addKategoriproduct -->
+        <test-method status="PASS" signature="finishing()[pri:0, instance:menuKategoriAndProduct.AddKategoriAndProductBulk@1c027129]" name="finishing" is-config="true" duration-ms="89" started-at="2021-07-16T22:13:37 ICT" finished-at="2021-07-16T22:13:37 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishing -->
+      </class> <!-- menuKategoriAndProduct.AddKategoriAndProductBulk -->
+      <class name="menuKategoriAndProduct.AddKategoriAndProductSingle">
+        <test-method status="PASS" signature="setupstart()[pri:0, instance:menuKategoriAndProduct.AddKategoriAndProductSingle@30af930b]" name="setupstart" is-config="true" duration-ms="4819" started-at="2021-07-16T22:09:50 ICT" finished-at="2021-07-16T22:09:55 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupstart -->
+        <test-method status="PASS" signature="loginAdmin()[pri:1, instance:menuKategoriAndProduct.AddKategoriAndProductSingle@30af930b]" name="loginAdmin" duration-ms="3993" started-at="2021-07-16T22:09:55 ICT" finished-at="2021-07-16T22:09:59 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAdmin -->
+        <test-method status="PASS" signature="addKategoriproduct()[pri:2, instance:menuKategoriAndProduct.AddKategoriAndProductSingle@30af930b]" name="addKategoriproduct" duration-ms="18725" started-at="2021-07-16T22:09:59 ICT" finished-at="2021-07-16T22:10:18 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addKategoriproduct -->
+        <test-method status="PASS" signature="finishing()[pri:0, instance:menuKategoriAndProduct.AddKategoriAndProductSingle@30af930b]" name="finishing" is-config="true" duration-ms="346" started-at="2021-07-16T22:13:37 ICT" finished-at="2021-07-16T22:13:38 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishing -->
+      </class> <!-- menuKategoriAndProduct.AddKategoriAndProductSingle -->
+    </test> <!-- test menu category produk -->
+  </suite> <!-- catprod Suite -->
+  <suite name="Master Suite" duration-ms="0" started-at="2021-07-16T22:14:36 ICT" finished-at="2021-07-16T22:14:36 ICT">
     <groups>
     </groups>
   </suite> <!-- Master Suite -->
+  <suite name="product out Suite" duration-ms="58014" started-at="2021-07-16T22:13:38 ICT" finished-at="2021-07-16T22:14:36 ICT">
+    <groups>
+    </groups>
+    <test name="test menu produk keluar" duration-ms="58014" started-at="2021-07-16T22:13:38 ICT" finished-at="2021-07-16T22:14:36 ICT">
+      <class name="androidEmulator.ProductOutgoing">
+        <test-method status="PASS" signature="setup()[pri:0, instance:androidEmulator.ProductOutgoing@64476a50]" name="setup" is-config="true" duration-ms="17942" started-at="2021-07-16T22:13:38 ICT" finished-at="2021-07-16T22:13:56 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:1, instance:androidEmulator.ProductOutgoing@64476a50]" name="login" duration-ms="8333" started-at="2021-07-16T22:13:56 ICT" finished-at="2021-07-16T22:14:04 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="outgoing()[pri:2, instance:androidEmulator.ProductOutgoing@64476a50]" name="outgoing" duration-ms="31166" started-at="2021-07-16T22:14:04 ICT" finished-at="2021-07-16T22:14:35 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- outgoing -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:androidEmulator.ProductOutgoing@64476a50]" name="teardown" is-config="true" duration-ms="569" started-at="2021-07-16T22:14:35 ICT" finished-at="2021-07-16T22:14:36 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- androidEmulator.ProductOutgoing -->
+    </test> <!-- test menu produk keluar -->
+  </suite> <!-- product out Suite -->
 </testng-results>

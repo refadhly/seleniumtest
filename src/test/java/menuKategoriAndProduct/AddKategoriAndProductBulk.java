@@ -211,21 +211,21 @@ public class AddKategoriAndProductBulk {
 
 				WebElement popupSubmitNewKategori = webDriver.findElement(By.xpath("//button[@type='submit'][contains(.,'Submit')]"));
 				popupSubmitNewKategori.click();
-				Thread.sleep(1*1000);
-				
-				new WebDriverWait(webDriver, 20).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[contains(@type,'search')]")));
-				WebElement inputsearchKategori = webDriver.findElement(By.xpath("//input[contains(@type,'search')]"));
-				inputsearchKategori.clear();
-				inputsearchKategori.sendKeys(CellKategori);
-				
-				Thread.sleep(2*1000);
-				WebElement sortbyidCateg = webDriver.findElement(By.xpath("//th[contains(.,'ID')]"));
-				sortbyidCateg.click();
+//				Thread.sleep(1*1000);
+//				
+//				new WebDriverWait(webDriver, 20).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[contains(@type,'search')]")));
+//				WebElement inputsearchKategori = webDriver.findElement(By.xpath("//input[contains(@type,'search')]"));
+//				inputsearchKategori.clear();
+//				inputsearchKategori.sendKeys(CellKategori);
+//				
+//				Thread.sleep(2*1000);
+//				WebElement sortbyidCateg = webDriver.findElement(By.xpath("//th[contains(.,'ID')]"));
+//				sortbyidCateg.click();
 				
 				System.out.println("add kategori berhasil");
 
 				//cara screenshot
-				Thread.sleep(2*1000);
+				Thread.sleep(1*1000);
 				FileHandler.copy(ts.getScreenshotAs(OutputType.FILE), 
 						new File(pathResult+"\\"+"Kategori_"+CellKategori+"_ResultNew.png"));
 
@@ -298,20 +298,20 @@ public class AddKategoriAndProductBulk {
 				WebElement popupSubmitNewProduct = webDriver.findElement(By.xpath("//button[@type='submit'][contains(.,'Submit')]"));
 				popupSubmitNewProduct.click();
 
-				Thread.sleep(1*1000);
-				new WebDriverWait(webDriver, 20).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[contains(@type,'search')]")));
-				WebElement inputsearchProductNew = webDriver.findElement(By.xpath("//input[contains(@type,'search')]"));
-				inputsearchProductNew.clear();
-				inputsearchProductNew.sendKeys(CellNamaProduk);
-				
-				Thread.sleep(2*1000);
-				WebElement sortbyidproduknew = webDriver.findElement(By.xpath("//th[contains(.,'ID')]"));
-				sortbyidproduknew.click();
+//				Thread.sleep(1*1000);
+//				new WebDriverWait(webDriver, 20).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[contains(@type,'search')]")));
+//				WebElement inputsearchProductNew = webDriver.findElement(By.xpath("//input[contains(@type,'search')]"));
+//				inputsearchProductNew.clear();
+//				inputsearchProductNew.sendKeys(CellNamaProduk);
+//				
+//				Thread.sleep(2*1000);
+//				WebElement sortbyidproduknew = webDriver.findElement(By.xpath("//th[contains(.,'ID')]"));
+//				sortbyidproduknew.click();
 
 				System.out.println("add produk berhasil");
 
 				//cara screenshot
-				Thread.sleep(2*1000);
+				Thread.sleep(1*1000);
 				FileHandler.copy(ts.getScreenshotAs(OutputType.FILE), 
 						new File(pathResult+"\\"+"Kategori_"+CellKategori+"Produk_"+CellNamaProduk+"_ResultNew.png"));
 			}
@@ -350,18 +350,18 @@ public class AddKategoriAndProductBulk {
 			WebElement popupSubmitNewProduct = webDriver.findElement(By.xpath("//button[@type='submit'][contains(.,'Submit')]"));
 			popupSubmitNewProduct.click();
 
-			Thread.sleep(1*1000);	
-			new WebDriverWait(webDriver, 20).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[contains(@type,'search')]")));
-			WebElement inputsearchProductEdit = webDriver.findElement(By.xpath("//input[contains(@type,'search')]"));
-			inputsearchProductEdit.clear();
-			inputsearchProductEdit.sendKeys(CellNamaProduk);
-			
-			Thread.sleep(2*1000);
-			WebElement sortbyidprodukedit = webDriver.findElement(By.xpath("//th[contains(.,'ID')]"));
-			sortbyidprodukedit.click();
+//			Thread.sleep(1*1000);	
+//			new WebDriverWait(webDriver, 20).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[contains(@type,'search')]")));
+//			WebElement inputsearchProductEdit = webDriver.findElement(By.xpath("//input[contains(@type,'search')]"));
+//			inputsearchProductEdit.clear();
+//			inputsearchProductEdit.sendKeys(CellNamaProduk);
+//			
+//			Thread.sleep(2*1000);
+//			WebElement sortbyidprodukedit = webDriver.findElement(By.xpath("//th[contains(.,'ID')]"));
+//			sortbyidprodukedit.click();
 
 			//cara screenshot
-			Thread.sleep(2*1000);
+			Thread.sleep(1*1000);
 			FileHandler.copy(ts.getScreenshotAs(OutputType.FILE), 
 					new File(pathResult+"\\"+"Kategori_"+CellKategori+"Produk_"+CellNamaProduk+"_ResultUpdate.png"));
 

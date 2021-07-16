@@ -202,14 +202,14 @@ public class AddKategoriAndProductSingle {
 					
 					WebElement popupSubmitNewKategori = webDriver.findElement(By.xpath("//button[@type='submit'][contains(.,'Submit')]"));
 					popupSubmitNewKategori.click();
-					Thread.sleep(1*1000);
-					WebElement inputsearchKategori = webDriver.findElement(By.xpath("//input[contains(@type,'search')]"));
-					inputsearchKategori.clear();
-					inputsearchKategori.sendKeys(categfaker);
+//					Thread.sleep(1*1000);
+//					WebElement inputsearchKategori = webDriver.findElement(By.xpath("//input[contains(@type,'search')]"));
+//					inputsearchKategori.clear();
+//					inputsearchKategori.sendKeys(categfaker);
 					System.out.println("add kategori berhasil");
 					
 					//cara screenshot
-					Thread.sleep(2*1000);
+					Thread.sleep(1*1000);
 					FileHandler.copy(ts.getScreenshotAs(OutputType.FILE), 
 							new File(pathResult+"\\"+"Kategori_"+categfaker+"_ResultNew.png"));
 					
@@ -277,15 +277,15 @@ public class AddKategoriAndProductSingle {
 					WebElement popupSubmitNewProduct = webDriver.findElement(By.xpath("//button[@type='submit'][contains(.,'Submit')]"));
 					popupSubmitNewProduct.click();
 
-					Thread.sleep(2*1000);
-					WebElement inputsearchProductNew = webDriver.findElement(By.xpath("//input[contains(@type,'search')]"));
-					inputsearchProductNew.clear();
-					inputsearchProductNew.sendKeys(produkfaker);
+//					Thread.sleep(2*1000);
+//					WebElement inputsearchProductNew = webDriver.findElement(By.xpath("//input[contains(@type,'search')]"));
+//					inputsearchProductNew.clear();
+//					inputsearchProductNew.sendKeys(produkfaker);
 
 					System.out.println("add produk berhasil");
 					
 					//cara screenshot
-					Thread.sleep(2*1000);
+					Thread.sleep(1*1000);
 					FileHandler.copy(ts.getScreenshotAs(OutputType.FILE), 
 							new File(pathResult+"\\"+"Kategori_"+categfaker+"Produk_"+produkfaker+"_ResultNew.png"));
 				}
@@ -325,15 +325,15 @@ public class AddKategoriAndProductSingle {
 				popupSubmitNewProduct.click();
 				
 				//=======> search untuk bukti data sudah bertambah
-				new WebDriverWait(webDriver, 20).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[contains(@type,'search')]")));
+//				new WebDriverWait(webDriver, 20).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[contains(@type,'search')]")));
 //				Thread.sleep(3*1000);
-				WebElement inputSearchDataNew = webDriver.findElement(By.xpath("//input[contains(@type,'search')]"));
-				inputSearchDataNew.clear();
-				inputSearchDataNew.sendKeys(produkfaker);
+//				WebElement inputSearchDataNew = webDriver.findElement(By.xpath("//input[contains(@type,'search')]"));
+//				inputSearchDataNew.clear();
+//				inputSearchDataNew.sendKeys(produkfaker);
 //				new WebDriverWait(webDriver, 20).until(ExpectedConditions.elementToBeClickable(By.xpath("//th[contains(.,'ID')]"))).click();
-				Thread.sleep(2*1000);
-				WebElement sortbyid = webDriver.findElement(By.xpath("//th[contains(.,'ID')]"));
-				sortbyid.click();
+//				Thread.sleep(1*1000);
+//				WebElement sortbyid = webDriver.findElement(By.xpath("//th[contains(.,'ID')]"));
+//				sortbyid.click();
 				
 				
 				

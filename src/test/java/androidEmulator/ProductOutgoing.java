@@ -38,7 +38,7 @@ import io.appium.java_client.remote.MobileCapabilityType;
 
 public class ProductOutgoing {
 	
-	private static final String SERVER_URL = "http://f2dd48d01907.ngrok.io/";
+	private static final String SERVER_URL = "http://337578668b61.ap.ngrok.io/";
 	private Faker faker = new Faker(new Locale("id_ID"));
 	
 	//=======> untuk kebutuhan screenshot
@@ -99,7 +99,7 @@ private AndroidDriver<MobileElement> androDriver;
 				System.setOut(out);
 				
 		System.out.println("Testing aplikasi telah selesai. Terima Kasih");
-//		androDriver.quit();
+		androDriver.quit();
 	}
 	
 	
@@ -209,21 +209,21 @@ private AndroidDriver<MobileElement> androDriver;
 		submitProdukOut.click();
 		
 		
-		//untuk memastikan
-		Thread.sleep(3*1000);
-		new WebDriverWait(androDriver, 20).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[contains(@type,'search')]"))).sendKeys(produk);
-		WebElement inputsearchProductOut = androDriver.findElement(By.xpath("//input[contains(@type,'search')]"));
-		inputsearchProductOut.sendKeys(produk);
-		
-		Thread.sleep(2*1000);
-		if(androDriver.isKeyboardShown()) {   androDriver.hideKeyboard(); }
-		
-		WebElement sortbyid = androDriver.findElement(By.xpath("//th[@class='sorting_desc'][contains(.,'ID')]"));
-		sortbyid.click();
+//		//untuk memastikan
+//		Thread.sleep(3*1000);
+//		new WebDriverWait(androDriver, 20).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[contains(@type,'search')]"))).sendKeys(produk);
+//		WebElement inputsearchProductOut = androDriver.findElement(By.xpath("//input[contains(@type,'search')]"));
+//		inputsearchProductOut.sendKeys(produk);
+//		
+//		Thread.sleep(2*1000);
+//		if(androDriver.isKeyboardShown()) {   androDriver.hideKeyboard(); }
+//		
+//		WebElement sortbyid = androDriver.findElement(By.xpath("//th[@class='sorting_desc'][contains(.,'ID')]"));
+//		sortbyid.click();
 		
 		
 		//cara screenshot
-		Thread.sleep(2*1000);
+		Thread.sleep(1500);
 		FileHandler.copy(ts.getScreenshotAs(OutputType.FILE), 
 				new File(pathResult+"\\"+"Produk_"+produk+"Out_"+quantity+"_Result.png"));
 		

@@ -3,7 +3,7 @@
 <suite name="Master Suite">
   <suite-files>
     <suite-file path="suiteuser.xml" />
-    <!-- <suite-file path="suitecatprod.xml" /> -->
-    <!-- <suite-file path="suiteandroidproductout.xml" /> -->
+    <suite-file path="suitecatprod.xml" />
+    <suite-file path="suiteandroidproductout.xml" />
   </suite-files>
 </suite> <!-- Suite -->

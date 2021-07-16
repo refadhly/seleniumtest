@@ -4,7 +4,7 @@
 	<test name="test menu user" preserve-order="true">
 		<classes>
 			<class name="menuUsers.AddUsers" />
-			<!-- <class name="menuUsers.AddUserBulk" /> -->
+			<class name="menuUsers.AddUserBulk" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
