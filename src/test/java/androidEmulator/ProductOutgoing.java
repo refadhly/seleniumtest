@@ -38,7 +38,7 @@ import io.appium.java_client.remote.MobileCapabilityType;
 
 public class ProductOutgoing {
 	
-	private static final String SERVER_URL = "http://337578668b61.ap.ngrok.io/";
+	private static final String SERVER_URL = "http://d757225e8a2c.ngrok.io/";
 	private Faker faker = new Faker(new Locale("id_ID"));
 	
 	//=======> untuk kebutuhan screenshot

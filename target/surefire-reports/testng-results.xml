@@ -2,108 +2,108 @@
 <testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="my Suite" duration-ms="387067" started-at="2021-07-17T00:15:59 ICT" finished-at="2021-07-17T00:22:26 ICT">
+  <suite name="my Suite" duration-ms="373745" started-at="2021-07-17T19:24:49 ICT" finished-at="2021-07-17T19:31:03 ICT">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="20864" started-at="2021-07-17T00:15:59 ICT" finished-at="2021-07-17T00:16:20 ICT">
+    <test name="Testing Add User" duration-ms="18294" started-at="2021-07-17T19:24:49 ICT" finished-at="2021-07-17T19:25:07 ICT">
       <class name="menuUsers.AddUsers">
-        <test-method status="PASS" signature="setupstart()[pri:0, instance:menuUsers.AddUsers@5e1c88ea]" name="setupstart" is-config="true" duration-ms="7575" started-at="2021-07-17T00:15:59 ICT" finished-at="2021-07-17T00:16:06 ICT">
+        <test-method status="PASS" signature="setupstart()[pri:0, instance:menuUsers.AddUsers@5e1c88ea]" name="setupstart" is-config="true" duration-ms="7795" started-at="2021-07-17T19:24:49 ICT" finished-at="2021-07-17T19:24:57 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupstart -->
-        <test-method status="PASS" signature="loginAdmin()[pri:1, instance:menuUsers.AddUsers@5e1c88ea]" name="loginAdmin" duration-ms="4231" started-at="2021-07-17T00:16:07 ICT" finished-at="2021-07-17T00:16:11 ICT">
+        <test-method status="PASS" signature="loginAdmin()[pri:1, instance:menuUsers.AddUsers@5e1c88ea]" name="loginAdmin" duration-ms="3203" started-at="2021-07-17T19:24:57 ICT" finished-at="2021-07-17T19:25:00 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAdmin -->
-        <test-method status="PASS" signature="createUser()[pri:2, instance:menuUsers.AddUsers@5e1c88ea]" name="createUser" duration-ms="8831" started-at="2021-07-17T00:16:11 ICT" finished-at="2021-07-17T00:16:20 ICT">
+        <test-method status="PASS" signature="createUser()[pri:2, instance:menuUsers.AddUsers@5e1c88ea]" name="createUser" duration-ms="7140" started-at="2021-07-17T19:25:00 ICT" finished-at="2021-07-17T19:25:07 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method status="PASS" signature="finishing()[pri:0, instance:menuUsers.AddUsers@5e1c88ea]" name="finishing" is-config="true" duration-ms="95" started-at="2021-07-17T00:16:20 ICT" finished-at="2021-07-17T00:16:20 ICT">
+        <test-method status="PASS" signature="finishing()[pri:0, instance:menuUsers.AddUsers@5e1c88ea]" name="finishing" is-config="true" duration-ms="133" started-at="2021-07-17T19:25:07 ICT" finished-at="2021-07-17T19:25:07 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishing -->
       </class> <!-- menuUsers.AddUsers -->
-    </test> <!-- Test1 -->
-    <test name="Test2" duration-ms="91364" started-at="2021-07-17T00:16:20 ICT" finished-at="2021-07-17T00:17:51 ICT">
+    </test> <!-- Testing Add User -->
+    <test name="Testing Add User Dgn Data Driven" duration-ms="80178" started-at="2021-07-17T19:25:07 ICT" finished-at="2021-07-17T19:26:28 ICT">
       <class name="menuUsers.AddUserBulk">
-        <test-method status="PASS" signature="setupstart()[pri:0, instance:menuUsers.AddUserBulk@330a0dbb]" name="setupstart" is-config="true" duration-ms="6320" started-at="2021-07-17T00:16:20 ICT" finished-at="2021-07-17T00:16:26 ICT">
+        <test-method status="PASS" signature="setupstart()[pri:0, instance:menuUsers.AddUserBulk@330a0dbb]" name="setupstart" is-config="true" duration-ms="6500" started-at="2021-07-17T19:25:07 ICT" finished-at="2021-07-17T19:25:14 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupstart -->
-        <test-method status="PASS" signature="loginAdmin()[pri:3, instance:menuUsers.AddUserBulk@330a0dbb]" name="loginAdmin" duration-ms="3999" started-at="2021-07-17T00:16:26 ICT" finished-at="2021-07-17T00:16:30 ICT">
+        <test-method status="PASS" signature="loginAdmin()[pri:3, instance:menuUsers.AddUserBulk@330a0dbb]" name="loginAdmin" duration-ms="3127" started-at="2021-07-17T19:25:14 ICT" finished-at="2021-07-17T19:25:17 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAdmin -->
-        <test-method status="PASS" signature="createUser()[pri:4, instance:menuUsers.AddUserBulk@330a0dbb]" name="createUser" duration-ms="80991" started-at="2021-07-17T00:16:30 ICT" finished-at="2021-07-17T00:17:51 ICT">
+        <test-method status="PASS" signature="createUser()[pri:4, instance:menuUsers.AddUserBulk@330a0dbb]" name="createUser" duration-ms="70501" started-at="2021-07-17T19:25:17 ICT" finished-at="2021-07-17T19:26:28 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method status="PASS" signature="finishing()[pri:0, instance:menuUsers.AddUserBulk@330a0dbb]" name="finishing" is-config="true" duration-ms="51" started-at="2021-07-17T00:17:51 ICT" finished-at="2021-07-17T00:17:51 ICT">
+        <test-method status="PASS" signature="finishing()[pri:0, instance:menuUsers.AddUserBulk@330a0dbb]" name="finishing" is-config="true" duration-ms="47" started-at="2021-07-17T19:26:28 ICT" finished-at="2021-07-17T19:26:28 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishing -->
       </class> <!-- menuUsers.AddUserBulk -->
-    </test> <!-- Test2 -->
-    <test name="Test3" duration-ms="25766" started-at="2021-07-17T00:17:51 ICT" finished-at="2021-07-17T00:18:17 ICT">
+    </test> <!-- Testing Add User Dgn Data Driven -->
+    <test name="Testing Add Kategori dan Produk" duration-ms="23810" started-at="2021-07-17T19:26:28 ICT" finished-at="2021-07-17T19:26:52 ICT">
       <class name="menuKategoriAndProduct.AddKategoriAndProductSingle">
-        <test-method status="PASS" signature="setupstart()[pri:0, instance:menuKategoriAndProduct.AddKategoriAndProductSingle@691e12e7]" name="setupstart" is-config="true" duration-ms="4343" started-at="2021-07-17T00:17:51 ICT" finished-at="2021-07-17T00:17:56 ICT">
+        <test-method status="PASS" signature="setupstart()[pri:0, instance:menuKategoriAndProduct.AddKategoriAndProductSingle@691e12e7]" name="setupstart" is-config="true" duration-ms="4951" started-at="2021-07-17T19:26:28 ICT" finished-at="2021-07-17T19:26:33 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupstart -->
-        <test-method status="PASS" signature="loginAdmin()[pri:1, instance:menuKategoriAndProduct.AddKategoriAndProductSingle@691e12e7]" name="loginAdmin" duration-ms="3159" started-at="2021-07-17T00:17:56 ICT" finished-at="2021-07-17T00:17:59 ICT">
+        <test-method status="PASS" signature="loginAdmin()[pri:1, instance:menuKategoriAndProduct.AddKategoriAndProductSingle@691e12e7]" name="loginAdmin" duration-ms="2392" started-at="2021-07-17T19:26:33 ICT" finished-at="2021-07-17T19:26:35 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAdmin -->
-        <test-method status="PASS" signature="addKategoriproduct()[pri:2, instance:menuKategoriAndProduct.AddKategoriAndProductSingle@691e12e7]" name="addKategoriproduct" duration-ms="18192" started-at="2021-07-17T00:17:59 ICT" finished-at="2021-07-17T00:18:17 ICT">
+        <test-method status="PASS" signature="addKategoriproduct()[pri:2, instance:menuKategoriAndProduct.AddKategoriAndProductSingle@691e12e7]" name="addKategoriproduct" duration-ms="16406" started-at="2021-07-17T19:26:35 ICT" finished-at="2021-07-17T19:26:51 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addKategoriproduct -->
-        <test-method status="PASS" signature="finishing()[pri:0, instance:menuKategoriAndProduct.AddKategoriAndProductSingle@691e12e7]" name="finishing" is-config="true" duration-ms="69" started-at="2021-07-17T00:18:17 ICT" finished-at="2021-07-17T00:18:17 ICT">
+        <test-method status="PASS" signature="finishing()[pri:0, instance:menuKategoriAndProduct.AddKategoriAndProductSingle@691e12e7]" name="finishing" is-config="true" duration-ms="58" started-at="2021-07-17T19:26:51 ICT" finished-at="2021-07-17T19:26:52 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishing -->
       </class> <!-- menuKategoriAndProduct.AddKategoriAndProductSingle -->
-    </test> <!-- Test3 -->
-    <test name="Test4" duration-ms="203234" started-at="2021-07-17T00:18:17 ICT" finished-at="2021-07-17T00:21:40 ICT">
+    </test> <!-- Testing Add Kategori dan Produk -->
+    <test name="Testing Add Kategori dan Produk Dgn Data Driven" duration-ms="187895" started-at="2021-07-17T19:26:52 ICT" finished-at="2021-07-17T19:29:59 ICT">
       <class name="menuKategoriAndProduct.AddKategoriAndProductBulk">
-        <test-method status="PASS" signature="setupstart()[pri:0, instance:menuKategoriAndProduct.AddKategoriAndProductBulk@4fad76c1]" name="setupstart" is-config="true" duration-ms="4428" started-at="2021-07-17T00:18:17 ICT" finished-at="2021-07-17T00:18:21 ICT">
+        <test-method status="PASS" signature="setupstart()[pri:0, instance:menuKategoriAndProduct.AddKategoriAndProductBulk@4fad76c1]" name="setupstart" is-config="true" duration-ms="4224" started-at="2021-07-17T19:26:52 ICT" finished-at="2021-07-17T19:26:56 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupstart -->
-        <test-method status="PASS" signature="loginAdmin()[pri:3, instance:menuKategoriAndProduct.AddKategoriAndProductBulk@4fad76c1]" name="loginAdmin" duration-ms="3031" started-at="2021-07-17T00:18:21 ICT" finished-at="2021-07-17T00:18:24 ICT">
+        <test-method status="PASS" signature="loginAdmin()[pri:3, instance:menuKategoriAndProduct.AddKategoriAndProductBulk@4fad76c1]" name="loginAdmin" duration-ms="2239" started-at="2021-07-17T19:26:56 ICT" finished-at="2021-07-17T19:26:58 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAdmin -->
-        <test-method status="PASS" signature="addKategoriproduct()[pri:4, instance:menuKategoriAndProduct.AddKategoriAndProductBulk@4fad76c1]" name="addKategoriproduct" duration-ms="195694" started-at="2021-07-17T00:18:24 ICT" finished-at="2021-07-17T00:21:40 ICT">
+        <test-method status="PASS" signature="addKategoriproduct()[pri:4, instance:menuKategoriAndProduct.AddKategoriAndProductBulk@4fad76c1]" name="addKategoriproduct" duration-ms="181325" started-at="2021-07-17T19:26:58 ICT" finished-at="2021-07-17T19:29:59 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addKategoriproduct -->
-        <test-method status="PASS" signature="finishing()[pri:0, instance:menuKategoriAndProduct.AddKategoriAndProductBulk@4fad76c1]" name="finishing" is-config="true" duration-ms="80" started-at="2021-07-17T00:21:40 ICT" finished-at="2021-07-17T00:21:40 ICT">
+        <test-method status="PASS" signature="finishing()[pri:0, instance:menuKategoriAndProduct.AddKategoriAndProductBulk@4fad76c1]" name="finishing" is-config="true" duration-ms="105" started-at="2021-07-17T19:29:59 ICT" finished-at="2021-07-17T19:29:59 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishing -->
       </class> <!-- menuKategoriAndProduct.AddKategoriAndProductBulk -->
-    </test> <!-- Test4 -->
-    <test name="Test5" duration-ms="45746" started-at="2021-07-17T00:21:40 ICT" finished-at="2021-07-17T00:22:26 ICT">
+    </test> <!-- Testing Add Kategori dan Produk Dgn Data Driven -->
+    <test name="Testing Mobile Browser Dgn Appium" duration-ms="63476" started-at="2021-07-17T19:29:59 ICT" finished-at="2021-07-17T19:31:03 ICT">
       <class name="androidEmulator.ProductOutgoing">
-        <test-method status="PASS" signature="setup()[pri:0, instance:androidEmulator.ProductOutgoing@17128880]" name="setup" is-config="true" duration-ms="11469" started-at="2021-07-17T00:21:40 ICT" finished-at="2021-07-17T00:21:52 ICT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:androidEmulator.ProductOutgoing@42706eb2]" name="setup" is-config="true" duration-ms="9146" started-at="2021-07-17T19:29:59 ICT" finished-at="2021-07-17T19:30:09 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:1, instance:androidEmulator.ProductOutgoing@17128880]" name="login" duration-ms="6198" started-at="2021-07-17T00:21:52 ICT" finished-at="2021-07-17T00:21:58 ICT">
+        <test-method status="PASS" signature="login()[pri:1, instance:androidEmulator.ProductOutgoing@42706eb2]" name="login" duration-ms="20090" started-at="2021-07-17T19:30:09 ICT" finished-at="2021-07-17T19:30:29 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="outgoing()[pri:2, instance:androidEmulator.ProductOutgoing@17128880]" name="outgoing" duration-ms="27547" started-at="2021-07-17T00:21:58 ICT" finished-at="2021-07-17T00:22:25 ICT">
+        <test-method status="PASS" signature="outgoing()[pri:2, instance:androidEmulator.ProductOutgoing@42706eb2]" name="outgoing" duration-ms="33854" started-at="2021-07-17T19:30:29 ICT" finished-at="2021-07-17T19:31:03 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- outgoing -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:androidEmulator.ProductOutgoing@17128880]" name="teardown" is-config="true" duration-ms="530" started-at="2021-07-17T00:22:25 ICT" finished-at="2021-07-17T00:22:26 ICT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:androidEmulator.ProductOutgoing@42706eb2]" name="teardown" is-config="true" duration-ms="385" started-at="2021-07-17T19:31:03 ICT" finished-at="2021-07-17T19:31:03 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- androidEmulator.ProductOutgoing -->
-    </test> <!-- Test5 -->
+    </test> <!-- Testing Mobile Browser Dgn Appium -->
   </suite> <!-- my Suite -->
 </testng-results>

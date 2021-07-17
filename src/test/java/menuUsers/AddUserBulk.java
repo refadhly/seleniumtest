@@ -3,9 +3,12 @@ package menuUsers;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 //import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.PrintStream;
 //import java.util.Locale;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -45,11 +48,20 @@ public class AddUserBulk {
 	SimpleDateFormat formatter = new SimpleDateFormat("ddMMyyyy_HHmmss"); 
 	File pathResult = new File(pathOutput+"\\"+"Bulk_AddUser_"+formatter.format(date));
 	//Create directory for existed path.
-	Boolean isCreated = pathResult.mkdir(); 
+	Boolean isCreated = pathResult.mkdir();
+	
+	//=======> membuat file txt untuk log
+		private String fileLogOutput = pathResult+"\\"+"Log.txt";
+		File fileLog = new File(fileLogOutput);
 	
 
 	@BeforeTest
-	public void setupstart() throws InterruptedException {
+	public void setupstart() throws InterruptedException, Exception {
+		//=======> untuk kebutuhan logging output agar system.out.print tulis ke file txt
+				FileOutputStream fis = new FileOutputStream(fileLogOutput, true);
+				PrintStream out = new PrintStream(fis);
+				System.setOut(out);
+				
 		System.out.println("Setup aplikasi dimulai");
 		
 		System.setProperty("webdriver.chrome.driver","D:\\CT\\support\\chromedriver.exe");
@@ -65,13 +77,23 @@ public class AddUserBulk {
 	}
 
 	@AfterTest
-	public void finishing() {
+	public void finishing() throws Exception {
+		//=======> untuk kebutuhan logging output agar system.out.print tulis ke file txt
+				FileOutputStream fis = new FileOutputStream(fileLogOutput, true);
+				PrintStream out = new PrintStream(fis);
+				System.setOut(out);
+				
 		System.out.println("Testing aplikasi telah selesai. Terima Kasih");
 		webDriver.close();
 	}
 
 	@Test(priority=3)
-	public void loginAdmin() throws InterruptedException {
+	public void loginAdmin() throws InterruptedException, Exception {
+		//=======> untuk kebutuhan logging output agar system.out.print tulis ke file txt
+				FileOutputStream fis = new FileOutputStream(fileLogOutput, true);
+				PrintStream out = new PrintStream(fis);
+				System.setOut(out);
+		
 		webDriver.get(SERVER_URL);
 		System.out.println("===============START STEP LOGIN===============");
 		System.out.println("nama method : loginAdmin()\n");
@@ -130,6 +152,11 @@ public class AddUserBulk {
 
 	@Test(priority=4)
 	public void createUser() throws InterruptedException, CsvValidationException, IOException {
+		//=======> untuk kebutuhan logging output agar system.out.print tulis ke file txt
+				FileOutputStream fis = new FileOutputStream(fileLogOutput, true);
+				PrintStream out = new PrintStream(fis);
+				System.setOut(out);
+		
 		//screenshot param
 	    TakesScreenshot ts=(TakesScreenshot)webDriver;
 		
